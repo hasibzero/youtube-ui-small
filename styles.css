@@ -1,0 +1,26 @@
+/*
+  This file contains the CSS rules to make the YouTube video grid more compact.
+  It works by overriding YouTube's default CSS variables for grid layout.
+*/
+
+/* Target the main grid container for videos on the homepage, subscriptions, etc. */
+ytd-rich-grid-renderer {
+  /*
+    This is the key property. YouTube uses this variable to determine how many items
+    to show per row. The default is usually 3 or 4 on wider screens.
+    We are setting it to 6, but you can change this number to 5, 7, or 8 to your preference.
+  */
+  --ytd-rich-grid-items-per-row: 6 !important;
+}
+
+/* Reduce the font size of the video title to prevent it from looking cramped */
+#video-title.ytd-rich-grid-media {
+  font-size: 1.4rem !important;
+  line-height: 2rem !important;
+  max-height: 4rem !important; /* Allow for a maximum of two lines of text */
+}
+
+/* Adjust the metadata text (channel name, view count) to be slightly smaller */
+#metadata-line.ytd-rich-grid-media {
+  font-size: 1.2rem !important;
+}

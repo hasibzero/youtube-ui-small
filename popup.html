@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Compact View Settings</title>
+    <style>
+        :root {
+            --bg-color: #1e1e1e;
+            --text-color: #e0e0e0;
+            --primary-color: #ff4757;
+            --slider-track-bg: #444;
+            --slider-thumb-bg: #e0e0e0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            width: 280px;
+            padding: 16px;
+            margin: 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 16px;
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+
+        p {
+            font-size: 13px;
+            margin-bottom: 20px;
+            color: #aaa;
+        }
+
+        .slider-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        #items-label {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--primary-color);
+            min-width: 30px;
+            text-align: center;
+        }
+
+        input[type="range"] {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 100%;
+            height: 8px;
+            background: var(--slider-track-bg);
+            outline: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            background: var(--slider-thumb-bg);
+            border-radius: 50%;
+            transition: background 0.2s ease-in-out;
+        }
+        
+        input[type="range"]::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            background: var(--slider-thumb-bg);
+            border-radius: 50%;
+            transition: background 0.2s ease-in-out;
+        }
+
+        input[type="range"]:active::-webkit-slider-thumb {
+             background: var(--primary-color);
+        }
+
+        input[type="range"]:active::-moz-range-thumb {
+             background: var(--primary-color);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Compact View Settings</h1>
+    <p>Videos per row on the homepage</p>
+    
+    <div class="slider-container">
+        <input type="range" id="items-slider" min="3" max="10" value="6">
+        <div id="items-label">6</div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

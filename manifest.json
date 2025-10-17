@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Compact View",
+  "version": "2.0.0",
+  "description": "Makes YouTube video thumbnails smaller to fit more videos on the screen.",
+  "icons": {
+    "48": "icon.png"
+  },
+  "permissions": ["storage", "scripting"],
+  "host_permissions": ["https://www.youtube.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
+
