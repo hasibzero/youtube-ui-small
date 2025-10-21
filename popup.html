@@ -6,21 +6,11 @@
     <title>YouTube Compact View Settings</title>
     <style>
         :root {
-            /* --- White Glass UI Variables --- */
-            --bg-color: rgba(255, 255, 255, 0.6); /* Lighter semi-transparent background */
-            --border-color: rgba(255, 255, 255, 0.3); /* Faint white border */
-            --shadow-color: rgba(100, 100, 100, 0.15); /* Softer shadow */
-            --text-color: #111; /* Dark text for readability */
-            /* --- End Glass UI Variables --- */
-
-            --primary-color: #ff4757; /* Keep this for the 'pop' color */
-            --slider-track-bg: rgba(0, 0, 0, 0.1); /* Faint dark track */
-            --slider-thumb-bg: #444; /* Darker thumb */
-        }
-
-        /* Make html background transparent to allow blur to see through */
-        html {
-            background-color: transparent;
+            --bg-color: #1e1e1e;
+            --text-color: #e0e0e0;
+            --primary-color: #ff4757;
+            --slider-track-bg: #444;
+            --slider-thumb-bg: #e0e0e0;
         }
 
         body {
@@ -31,14 +21,6 @@
             padding: 16px;
             margin: 0;
             text-align: center;
-
-            /* --- Glass UI Properties --- */
-            backdrop-filter: blur(14px) saturate(180%);
-            -webkit-backdrop-filter: blur(14px) saturate(180%); /* For Safari/Chrome */
-            border-radius: 12px; /* Rounded corners */
-            border: 1px solid var(--border-color);
-            box-shadow: 0 4px 20px var(--shadow-color);
-            /* --- End Glass UI Properties --- */
         }
 
         h1 {
@@ -50,7 +32,7 @@
         p {
             font-size: 13px;
             margin-bottom: 20px;
-            color: #333; /* Slightly lighter dark text */
+            color: #aaa;
         }
 
         .slider-container {
