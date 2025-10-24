@@ -1,20 +1,21 @@
-# YouTube Compact View
+# YouTube Grid Customizer - Adjust Video Layout
 
-![YouTube Compact View](icon.png)
+![YouTube Grid Customizer](icon.png)
 
-A browser extension that makes YouTube video thumbnails smaller to fit more videos on the screen. Enjoy a more compact and information-dense browsing experience on YouTube.
+A browser extension that allows you to customize YouTube's video grid layout by adjusting the number of videos per row (3-10). Enjoy a personalized, compact, and information-dense browsing experience on YouTube's homepage, subscription feed, and search results.
 
 ## Features
 
--   **Smaller Thumbnails:** Reduces the size of video thumbnails on the YouTube homepage, subscription feed, and search results.
--   **Customizable Grid:** (Future feature) Allows you to customize the number of videos per row.
--   **Simple Toggle:** Easily switch between compact and default view from the extension popup.
+-   **Customizable Grid Layout:** Adjust the number of videos per row (3-10) on YouTube homepage, subscription feed, and search results.
+-   **Dynamic Thumbnail Sizing:** Video thumbnails automatically resize based on your preferred grid layout.
+-   **Intuitive Slider Control:** Easy-to-use slider interface in the extension popup for instant customization.
+-   **Real-Time Updates:** Changes apply immediately to all open YouTube tabs.
 
 ## Installation
 
 ### From the Chrome Web Store (Recommended)
 
-1.  Go to the [YouTube Compact View extension page]() on the Chrome Web Store.
+1.  Go to the [YouTube Grid Customizer extension page]() on the Chrome Web Store.
 2.  Click on "Add to Chrome".
 3.  The extension will be installed and ready to use.
 
@@ -30,8 +31,8 @@ A browser extension that makes YouTube video thumbnails smaller to fit more vide
 
 1.  Navigate to [YouTube](https://www.youtube.com/).
 2.  Click on the extension icon in the browser toolbar.
-3.  Use the toggle in the popup to enable or disable the compact view.
-4.  The page will automatically refresh with the new layout.
+3.  Use the slider to adjust the number of videos per row (3-10).
+4.  Changes apply instantly to all open YouTube tabs.
 
 ## Contributing
 
