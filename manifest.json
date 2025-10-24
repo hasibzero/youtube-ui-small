@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "YouTube Compact View",
+  "name": "YouTube Grid Customizer - Adjust Video Layout",
   "version": "2.0.0",
-  "description": "Makes YouTube video thumbnails smaller to fit more videos on the screen.",
+  "description": "Customize YouTube's video grid layout. Adjust videos per row (3-10) for a personalized, compact viewing experience on homepage and search results.",
   "icons": {
     "48": "icon.png"
   },
