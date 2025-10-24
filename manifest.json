@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "YouTube Grid Customizer - Adjust Video Layout",
+  "name": "YouTube Grid Layout Customizer",
   "version": "2.0.0",
-  "description": "Customize YouTube's video grid layout. Adjust videos per row (3-10) for a personalized, compact viewing experience on homepage and search results.",
+  "description": "Customize YouTube video grid layout: adjust videos per row (3-10) for personalized, compact viewing on homepage, subscriptions, and search results.",
   "icons": {
     "48": "icon.png"
   },

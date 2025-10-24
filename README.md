@@ -1,6 +1,6 @@
-# YouTube Grid Customizer - Adjust Video Layout
+# YouTube Grid Layout Customizer
 
-![YouTube Grid Customizer](icon.png)
+![YouTube Grid Layout Customizer](icon.png)
 
 A browser extension that allows you to customize YouTube's video grid layout by adjusting the number of videos per row (3-10). Enjoy a personalized, compact, and information-dense browsing experience on YouTube's homepage, subscription feed, and search results.
 
@@ -15,7 +15,7 @@ A browser extension that allows you to customize YouTube's video grid layout by 
 
 ### From the Chrome Web Store (Recommended)
 
-1.  Go to the [YouTube Grid Customizer extension page]() on the Chrome Web Store.
+1.  Go to the [YouTube Grid Layout Customizer extension page]() on the Chrome Web Store.
 2.  Click on "Add to Chrome".
 3.  The extension will be installed and ready to use.
 
