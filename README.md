@@ -21,7 +21,7 @@ A browser extension that allows you to customize YouTube's video grid layout by 
 
 ### Manual Installation (for developers)
 
-1.  Clone this repository: `git clone https://github.com/your-username/youtube-ui-small.git`
+1.  Clone this repository: `git clone https://github.com/your-username/youtube-grid-customizer.git`
 2.  Open Google Chrome and go to `chrome://extensions/`.
 3.  Enable "Developer mode" in the top right corner.
 4.  Click on "Load unpacked".
